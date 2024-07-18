@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devenez Prestataire</title>
+        <link rel="stylesheet" href="inscription.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="left-section">
+            <h1>Devenez Prestataire</h1>
+            <p>Rejoignez notre communaute de professionelset offrez vos services a un large public.</p>
+        </div>
+        <div class="right-section">
+            <h2>Inscrivez-vous en tant que prestataire</h2>
+            <form action="#">
+                
+                <label for="categories">Selectionnez une categories</label>
+                <select name="categories" id="categories">
+                <option value="" disabled selected>Selectionnez une categorie</option>
+                <option value="categorie1">FRANCISCO</option>
+                <option value="categorie2">S...E</option>
+                <option value="categorie3">EM...LE</option>
+                </select>
+                <div>
+                <label for="nomService">Nom du Service</label>
+                <input type="text"  required name="nom-service" id="nom-service">
+                <label for="experience">Annees d'experience</label>
+                <input type="number" required name="experience" id="experience">
+                </div>
+                <label for="description">Description du Service</label>
+                <textarea name="description" id="description" placeholder="Description du service propose (minimum 10 mots)"></textarea>
+                <button type="submit"><a href="http://127.0.0.1:5500/javascript.html" target="_blank">S'inscrire en tant que prestataire</a></button>
+            </form>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
